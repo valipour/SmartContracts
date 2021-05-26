@@ -351,10 +351,10 @@ uint256 private _smallbag;
 
   constructor() public {
       _smallbag=1000;
-    _name = "FuckBtc ";
-    _symbol = "FuckBtc";
+    _name = "FuckBtc2 ";
+    _symbol = "FuckBtc2";
     _decimals =0;
-    _totalSupply = 5000;
+    _totalSupply = 15000;
     _balances[msg.sender] = _totalSupply;
     
 
